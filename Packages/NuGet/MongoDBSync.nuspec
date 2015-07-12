@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>MongoDBSync</id>
+        <version>1.0.1</version>
+        <title>MongoDBSync</title>
+        <authors>Josh</authors>
+        <owners>QuantumConcepts</owners>
+        <licenseUrl>https://raw.githubusercontent.com/QuantumConcepts/MongoDBSync/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/QuantumConcepts/MongoDBSync</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>This is meant to solve the problem identified here (https://www.mongodb.com/blog/post/introducing-20-net-driver) - namely, that it's not always reasonable to interact with an asynchronous API. Particularly in the context of a web application.
+
+This is not meant as an endorsement of synchronous programming over asynchronous programming; rather, it's meant to allow a developer to use the mechanism which is best for their purpose.</description>
+        <summary>Synchronous extensions for the asynchronous MongoDB .NET driver.</summary>
+        <releaseNotes>Initial release.</releaseNotes>
+        <language>en-US</language>
+        <tags>mongodb extension</tags>
+    </metadata>
+    <files>
+        <file src="..\..\Source\MongoDBSync\bin\Release\QuantumConcepts.MongoDBSync.dll" target="lib\net45\QuantumConcepts.MongoDBSync.dll" />
+        <file src="..\..\Source\MongoDBSync\bin\Release\QuantumConcepts.MongoDBSync.XML" target="lib\net45\QuantumConcepts.MongoDBSync.XML" />
+    </files>
+</package>
